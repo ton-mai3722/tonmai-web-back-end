@@ -7,6 +7,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [1.0.2] - 2026-09-21
+
+### Fixed & Added
+- **Vercel Build Support:** Moved `@types/bun`, `bun-types`, and `@types/node` into `dependencies` to eliminate `error TS2688: Cannot find type definition file for 'bun'` during Vercel production builds.
+- **Vercel Serverless Integration:** Added `api/index.ts` with `hono/vercel` adapter and `vercel.json` rewrites for seamless zero-config serverless deployment on Vercel.
+
+---
+
 ## [1.0.1] - 2026-09-21
 
 ### Enhanced

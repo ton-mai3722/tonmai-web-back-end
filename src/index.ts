@@ -40,7 +40,10 @@ console.log(`🚀 Tonmai Backend is running at http://localhost:${PORT}`);
 console.log(`📡 Test route: http://localhost:${PORT}/api/test`);
 console.log(`👤 Profile route: http://localhost:${PORT}/api/profile`);
 
+export { app };
+
 export default {
   port: PORT,
   fetch: app.fetch,
 };
+
