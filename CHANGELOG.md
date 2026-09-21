@@ -7,6 +7,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [1.0.1] - 2026-09-21
+
+### Enhanced
+- **Environment Credentials:** Migrated Firebase Service Account keys directly into `.env` (`FIREBASE_PROJECT_ID`, `FIREBASE_CLIENT_EMAIL`, `FIREBASE_PRIVATE_KEY`), removing dependency on local JSON files for seamless cloud container deployments.
+- **Documentation:** Updated `.env.example` with Firebase environment variables template.
+
+---
+
 ## [1.0.0] - 2026-09-21
 
 ### Added
