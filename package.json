@@ -1,0 +1,22 @@
+{
+  "name": "tonmai-web-back-end",
+  "version": "1.0.0",
+  "module": "src/index.ts",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon",
+    "dev:bun": "bun --watch src/index.ts",
+    "start": "bun src/index.ts"
+  },
+  "dependencies": {
+    "firebase-admin": "^14.4.0",
+    "hono": "^4.13.8"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "nodemon": "^3.1.14"
+  },
+  "peerDependencies": {
+    "typescript": "^7"
+  }
+}

@@ -1,0 +1,43 @@
+# dependencies (bun install)
+node_modules
+
+# output
+out
+dist
+*.tgz
+
+# code coverage
+coverage
+*.lcov
+
+# logs
+logs
+*.log
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# dotenv environment variable files
+.env
+.env.*
+!.env.example
+
+# Firebase & Secret credentials
+serviceAccountKey.json
+*serviceAccountKey*.json
+*-adminsdk-*.json
+firebase-key.json
+*.pem
+*.key
+
+# caches
+.eslintcache
+.cache
+*.tsbuildinfo
+
+# IDEs
+.idea
+.vscode
+*.sublime-project
+*.sublime-workspace
+
+# Finder (MacOS) folder config
+.DS_Store
